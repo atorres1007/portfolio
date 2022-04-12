@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+* {
+    font-family: 'Exo', sans-serif;
+}
+body {
+    width: 100vw;
+    margin: 0;
+    background-color: #EAE7DC;
+}
+.sidebar hr {
+    transform: rotate(90deg);
+    width: 5vw;
+    height: 0.5vw;
+    border: none;
+    background-color: #8E8D8A;
+    margin-bottom: 3vw;
+}
+.sidebar {
+    margin-left: 5vw;
+    position: fixed;
+}
+.sidebar img {
+    display: block;
+    width: 5vw;
+    margin-top: 2vw;
+    border-radius: 15%;
+    height: auto;
+    position: sticky;
+}
+.portfolio-photo {
+    width: 15vw;
+    border-radius: 50%;
+    height: auto;
+    margin-bottom: 3vw;
+    border: 3px solid black;
+}
+.title {
+    text-align: center;
+    margin-top: 0;
+    font-size: 3.5vw;
+    color: #E85A4F;
+}
+.title h1 {
+    margin-top: 0;
+    margin-bottom: 3vw;
+}
+.section h1{
+    color: #E85A4F;
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 0;
+    margin-top: 2vw;
+}
+.section {
+    margin-top: 0;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.sub-section {
+    margin-top: 0;
+    color: #8E8D8A;
+    font-size: 2vw;
+}
+.focus {
+    color:#E85A4F;
+    font-weight: 900;
+}
+.hidden {
+    color:#EAE7DC;
+}
+
+/*-----Project Section-----*/
+
+.projects {
+    width: 70vw;
+    border-radius: 3%;
+    height: 32vw;
+    margin-bottom: 0.5vw;
+    border: 2px solid #8E8D8A;
+    background-color: #D8C3A5;
+}
+.projects a {
+  color: black;
+}
+.projects h3 {
+    display: inline-block;
+    position:absolute;
+    width: 17.5vw;
+    height: 10vw;
+    font-size: 4vw;
+    margin-left: 2.5vw;
+    margin-top: 2vw;
+}
+.projects img {
+    display: inline-block;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 25vw;
+    width: 40vw;
+    height: 25vw;
+    border-radius: 3%;
+    border: 1px solid #8E8D8A;
+}
+.project-description {
+    position: relative;
+    margin-top: -12.5vw;
+    margin-left: 5vw;
+    margin-right: 20vw;
+    height: 12.5vw;
+    border-radius: 3%;
+    border: 1px solid #8E8D8A;
+    background-color:#E98074
+}
+.project-description h4 {
+    margin-top: 0;
+    margin-left: 0.5vw;
+    color:black;
+    font-size: 2vw;
+}
+.project-description hr {
+    height: 0.125vw;
+    background-color:#8E8D8A;
+    width: 50%;
+    border: none;
+    margin-left: 0.5vw;
+}
+.project-description p a {
+    color:black;
+}
+.project-description p {
+    color:black;
+    margin-top: 0;
+    margin-left: 0.5vw;
+    margin-bottom: 0;
+    font-size: 1.6vw;
+}
+
+/*-----Contact Section-----*/
+
+.contact-section {
+    margin-top: 5vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.contact-section h1 {
+    color: #E85A4F;
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 0;
+    margin-top: 2vw;
+}
+.contact-section .form {
+    width: 70vw;
+    height: auto;
+    border: 2px solid #8E8D8A;
+    border-radius: 3%;
+    background-color: #D8C3A5;
+}
+.contact-section input {
+    display: inline-block;
+    border-radius: 3%;
+    border: none;
+    margin-top: 2vw;
+    font-size: 2vw;
+    color: black;
+    background-color: #E98074;
+}
+.first-name {
+    margin-left: 10vw;
+    width: 23.75vw;
+    height: 3vw;
+}
+.last-name {
+    margin-left: 2.5vw;
+    width: 23.75vw;
+    height: 3vw;
+}
+.email {
+    margin-left: 10vw;
+    width: 23.75vw;
+    height: 3vw;
+}
+.phone {
+    margin-left: 2.5vw;
+    width: 23.75vw;
+    height: 3vw;
+}
+.message {
+    display: inline-block;
+    margin-left: 10vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 50vw;
+    height: 10vw;
+    font-size: 1.75vw;
+    border: none;
+    border-radius: 3%;
+    color: black;
+    background-color: #E98074;
+}
+.contact-section button {
+    text-align: center;
+    margin-bottom: 2vw;
+    border: none;
+    border-radius: 3%;
+    width: 10vw;
+    height: 3vw;
+    font-size: 2vw;
+    color: black;
+    background-color: #E98074;
+    border: 1px solid #E98074;
+    cursor: pointer;
+}
+::placeholder  {
+    color: black;
+}
+:-ms-input-placeholder { 
+    color: black;
+}  
+::-ms-input-placeholder { 
+    color: black;
+}
+.btn {
+    text-align: center;
+}
