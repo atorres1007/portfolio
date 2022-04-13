@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import bonsaiClone from './Photos/bonsai-project.jpg';
+import bonsai from './Photos/bonsai-screenshot.jpeg';
 import profilePicture from './Photos/profile.jpg';
 import linkedin from './Photos/linkedin.png';
 import github from './Photos/github.png';
-import met from './Photos/met.jpg';
-import roomies from './Photos/roomies.jpg'
+import met from './Photos/met-museum.jpeg';
+import roomies from './Photos/roomies.jpeg'
 
 export default function App () {
   const [firstName, setFirstName] = useState("")
@@ -46,7 +46,7 @@ export default function App () {
       <div className="section">
         <div className='sub-section'>
           <p>
-          <span className='hidden'>IIIIII</span>Welcome! My name is Andrew Torres. I am a self-taught software engineer 
+          <span className='hidden'>IIIIII</span>Welcome! My name is Andrew Torres. I am a software engineer 
           with a focus in <span className='focus'>front-end design</span> and <span className='focus'>application creation</span>. I started my 
           journey to becoming a software engineer in Fall of 2021. I found the creativity
           of front-end software engineering very appealing and decided to make it my focus. I originally started with <span className='focus'>Flask</span> and <span className='focus'>Python</span> but 
@@ -60,12 +60,12 @@ export default function App () {
         <h1>PROJECTS</h1>
         <div className='projects'>
           <h3><a href='https://bonsai-clone.herokuapp.com/' target='blank'>BONSAI CLONE</a></h3>
-          <img className='project-photo' src={bonsaiClone}/>
+          <img className='project-photo' src={bonsai}/>
           <div className='project-description'>
-            <p>A simple clone of an interesting <a href= 'http://www.mikiyakobayashi.com/projects'> website</a>. 
+            <p>A simple clone of an interesting <a href= 'http://www.mikiyakobayashi.com/projects' target='blank'> website</a>. 
             Instead, replacing the images with photos of 
-            bonsai trees along with descriptions of each bonsai taken from
-            <a href='https://www.thespruce.com/popular-types-of-bonsai-trees-5025687'> here</a>.
+            bonsai trees along with descriptions of each bonsai taken 
+            from <a href='https://www.thespruce.com/popular-types-of-bonsai-trees-5025687' target='blank'>here</a>.
             </p> 
             <hr/>
             <h4>React | Multi-component | Clone | CSS</h4>

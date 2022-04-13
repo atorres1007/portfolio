@@ -89,7 +89,7 @@ body {
     position:absolute;
     width: 17.5vw;
     height: 10vw;
-    font-size: 4vw;
+    font-size: 3.25vw;
     margin-left: 2.5vw;
     margin-top: 2vw;
 }
@@ -117,7 +117,7 @@ body {
     margin-top: 0;
     margin-left: 0.5vw;
     color:black;
-    font-size: 2vw;
+    font-size: 1.75vw;
 }
 .project-description hr {
     height: 0.125vw;
