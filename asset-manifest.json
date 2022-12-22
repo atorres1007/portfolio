@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe0ee266.css",
+    "main.js": "/static/js/main.045b6342.js",
+    "static/media/met-museum.jpeg": "/static/media/met-museum.c22abd081605d3e7f04f.jpeg",
+    "static/media/bonsai-screenshot.jpeg": "/static/media/bonsai-screenshot.cd756640d10fe180cf36.jpeg",
+    "static/media/roomies.jpeg": "/static/media/roomies.0c11785b466321a1437b.jpeg",
+    "static/media/profile.jpg": "/static/media/profile.0725b5b2b2a3e3546895.jpg",
+    "static/media/github.png": "/static/media/github.aabf6c82d3d6513ca051.png",
+    "index.html": "/index.html",
+    "main.fe0ee266.css.map": "/static/css/main.fe0ee266.css.map",
+    "main.045b6342.js.map": "/static/js/main.045b6342.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe0ee266.css",
+    "static/js/main.045b6342.js"
+  ]
+}
