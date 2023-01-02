@@ -59,7 +59,7 @@ export default function App () {
       <div className="section">
         <h1>PROJECTS</h1>
         <div className='projects'>
-          <h3><a href='https://bonsai-clone.herokuapp.com/' target='blank'>BONSAI CLONE</a></h3>
+          <h3><a href='https://bonsai-website-clone-ufv9.vercel.app/' target='blank'>BONSAI CLONE</a></h3>
           <img className='project-photo' src={bonsai}/>
           <div className='project-description'>
             <p>A simple clone of an interesting <a href= 'http://www.mikiyakobayashi.com/projects' target='blank'> website</a>. 
@@ -72,7 +72,7 @@ export default function App () {
           </div>
         </div>
         <div className='projects'>
-          <h3><a href='https://met-museum.herokuapp.com/' target='_blank'>MET MUSEUM PROJECT</a></h3>
+          <h3><a href='https://met-museum-project.vercel.app/' target='_blank'>MET MUSEUM PROJECT</a></h3>
           <img className='project-photo' src={met}/>
           <div className='project-description'>
             <p>
