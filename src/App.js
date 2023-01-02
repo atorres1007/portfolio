@@ -46,13 +46,13 @@ export default function App () {
       <div className="section">
         <div className='sub-section'>
           <p>
-          <span className='hidden'>IIIIII</span>Welcome! My name is Andrew Torres. I am a software engineer 
-          with a focus in <span className='focus'>front-end design</span> and <span className='focus'>application creation</span>. I started my 
-          journey to becoming a software engineer in Fall of 2021. I found the creativity
-          of front-end software engineering very appealing and decided to make it my focus. I originally started with <span className='focus'>Flask</span> and <span className='focus'>Python</span> but 
-          quickly transitioned to <span className='focus'> React</span>, <span className='focus'>Node</span>, and <span className='focus'>Javascript</span>. Furthermore,  I also have a good understanding of  
-          <span className='focus'> PostgreSQL databases</span> and <span className='focus'> React Native</span>. Please feel free to view my projects and contact me with any questions 
-          you may have.  
+          <span className='hidden'>IIIIII</span>Welcome! My name is Andrew Torres. I am a software developer 
+          with a focus in <span className='focus'>front-end web development</span> and <span className='focus'>design</span>.
+          I have the most experience with<span className='focus'> React</span> and its libraries. Moreover, I also have a great deal of experience with 
+          <span className='focus'> SQL databases</span> and integrating them into React applications.
+          Recently, I have been using a React framework called<span className='focus'> Next.js</span> to professionally develop web appications for 
+          an E-commerce called Shopdango. Furthermore, I love learning new skills and tackling new challenges that come my way.
+          Please feel free to view my projects and contact me with any questions you may have.
           </p>
         </div>
       </div>
