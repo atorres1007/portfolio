@@ -85,7 +85,7 @@ export default function App () {
           </div>
         </div>
         <div className='projects'>
-          <h3>COUNTRIES APP</h3>
+          <h3><a href='https://countries-app-wine-two.vercel.app/' target='_blank'>COUNTRIES APP</a></h3>
           <img className='project-photo' src={countries}/>
           <div className='project-description'>
             <p>
