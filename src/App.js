@@ -6,6 +6,7 @@ import linkedin from './Photos/linkedin.png';
 import github from './Photos/github.png';
 import met from './Photos/met-museum.jpeg';
 import roomies from './Photos/roomies.jpeg'
+import countries from './Photos/countriesAppPreview.PNG'
 
 export default function App () {
   const [firstName, setFirstName] = useState("")
@@ -81,6 +82,18 @@ export default function App () {
             </p> 
             <hr/>
             <h4>React | API | Image-Generator | RNG</h4>
+          </div>
+        </div>
+        <div className='projects'>
+          <h3>COUNTRIES APP</h3>
+          <img className='project-photo' src={countries}/>
+          <div className='project-description'>
+            <p>
+              Simple React app that uses <a href='https://restcountries.com/' target='_blank'>REST Countries API</a> to allow users to search
+              for a country and receive some information about that country.
+            </p> 
+            <hr/>
+            <h4>React | API | User-Search </h4>
           </div>
         </div>
         <div className='projects'>
