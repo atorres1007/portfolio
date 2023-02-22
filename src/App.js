@@ -5,8 +5,9 @@ import profilePicture from './Photos/profile.jpg';
 import linkedin from './Photos/linkedin.png';
 import github from './Photos/github.png';
 import met from './Photos/met-museum.jpeg';
-import roomies from './Photos/roomies.jpeg'
-import countries from './Photos/countriesAppPreview.PNG'
+import roomies from './Photos/roomies.jpeg';
+import countries from './Photos/countriesAppPreview.PNG';
+import aiArtApp from './Photos/ai-art-preview.PNG';
 
 export default function App () {
   const [firstName, setFirstName] = useState("")
@@ -58,7 +59,23 @@ export default function App () {
         </div>
       </div>
       <div className="section">
+
         <h1>PROJECTS</h1>
+
+        <div className='projects'>
+          <h3><a href='https://ai-art-generator-delta.vercel.app/' target='_blank'>AI ART GENERATOR</a></h3>
+          <img className='project-photo' src={aiArtApp}/>
+          <div className='project-description'>
+            <p>
+              This small react application was inspired by all of the popularity around AI. 
+              It uses <a href='https://openai.com/dall-e-2/' target='_blank'>Open AI's DALL-E 2</a> to 
+              create a small piece of art via user prompt and artificial intelligence.
+            </p> 
+            <hr/>
+            <h4>OpenAI | API | DALL-E 2 | AI Art </h4>
+          </div>
+        </div>
+
         <div className='projects'>
           <h3><a href='https://bonsai-website-clone-ufv9.vercel.app/' target='blank'>BONSAI CLONE</a></h3>
           <img className='project-photo' src={bonsai}/>
@@ -72,6 +89,7 @@ export default function App () {
             <h4>React | Multi-component | Clone | CSS</h4>
           </div>
         </div>
+
         <div className='projects'>
           <h3><a href='https://met-museum-project.vercel.app/' target='_blank'>MET MUSEUM PROJECT</a></h3>
           <img className='project-photo' src={met}/>
@@ -84,6 +102,7 @@ export default function App () {
             <h4>React | API | Image-Generator | RNG</h4>
           </div>
         </div>
+
         <div className='projects'>
           <h3><a href='https://countries-app-wine-two.vercel.app/' target='_blank'>COUNTRIES APP</a></h3>
           <img className='project-photo' src={countries}/>
@@ -96,6 +115,7 @@ export default function App () {
             <h4>React | API | User-Search </h4>
           </div>
         </div>
+        
         <div className='projects'>
           <h3>ROOMIES APP</h3>
           <img className='project-photo' src={roomies}/>
