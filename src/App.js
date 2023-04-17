@@ -62,7 +62,7 @@ export default function App () {
 
         <h1>PROJECTS</h1>
 
-        <div className='projects'>
+        {/* <div className='projects'>
           <h3><a href='https://ai-art-generator-delta.vercel.app/' target='_blank'>AI ART GENERATOR</a></h3>
           <img className='project-photo' src={aiArtApp}/>
           <div className='project-description'>
@@ -74,7 +74,7 @@ export default function App () {
             <hr/>
             <h4>OpenAI | API | DALL-E 2 | AI Art </h4>
           </div>
-        </div>
+        </div> */}
 
         <div className='projects'>
           <h3><a href='https://bonsai-website-clone-ufv9.vercel.app/' target='blank'>BONSAI CLONE</a></h3>
