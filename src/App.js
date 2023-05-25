@@ -43,7 +43,6 @@ export default function App () {
       </div>
       <div className="title">
         <h1>ANDREW TORRES</h1>
-        <img className='portfolio-photo' src={profilePicture} />
       </div>
       <div className="section">
         <div className='sub-section'>
