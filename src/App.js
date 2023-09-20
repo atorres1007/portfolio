@@ -110,8 +110,12 @@ export default function App () {
 
        
       <div className="projects-section" id='Projects'>
-        
-        <h1 className='section-header'>PROJECTS</h1>
+
+        <div style={{display: 'flex', justifyContent: 'center'}}>
+
+          <p className='section-header'>PROJECTS</p>
+
+        </div>
 
         <div className='projectsContainer'>
         {projects.map((project, index) => {
@@ -152,7 +156,11 @@ export default function App () {
 
       <div className='resume-section' id='Resume' >
 
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+
         <p className='section-header'>RESUME</p> 
+
+      </div>
 
         <div className='resume'>
 

@@ -8,9 +8,11 @@ body {
     width: 100vw;
     margin: 0;
     background-color: #EAE7DC;
+    overflow-x: hidden;
 }
 .portfolio {
     background-color: #000223;
+    overflow-x: hidden;
 }
 
 .navbarLinks {
@@ -127,14 +129,15 @@ body {
 .projects-section {
     padding-top: 100px;
     position: relative;
-    left: 5vw;
-    margin-right: 5vw;
     padding-bottom: 100px;
 }
 
 .projectsContainer {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .project{
