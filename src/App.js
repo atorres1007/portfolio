@@ -35,7 +35,7 @@ export default function App () {
     })
   }
 
-  const headerLinks = ['Home', 'Projects', 'Resume', 'Contact']
+  const headerLinks = ['Home','About', 'Projects', 'Resume', 'Contact']
 
   const projects = [
     {name:'Bonsai', photo: bonsai, url: 'https://bonsai-website-clone-ufv9.vercel.app/', keywords: ['React, ', 'Multi-component, ', 'Clone, ', 'CSS '], 
@@ -88,20 +88,42 @@ export default function App () {
 
         <p className="title" >ANDREW TORRES</p>
 
-        <div className='bio'>
+        <div className='home'>
           
           <p>
-            Hello! My name is Andrew Torres. I am a software developer 
-            with a focus in <span className='focus'>front-end web development</span> and <span className='focus'>design</span>.
-            I have the most experience with<span className='focus'> React</span> and its libraries. Moreover, I also have a great deal of experience with 
-            <span className='focus'> SQL databases</span> and integrating them into React applications.
-            Recently, I have been using a React framework called<span className='focus'> Next.js</span> to professionally develop web appications for 
-            an E-commerce called Shopdango. Furthermore, I love learning new skills and tackling new challenges that come my way.
-            Please feel free to view my projects and contact me with any questions you may have.
+
+          <span className='focus'>Creative</span> and <span className='focus'>Innovative</span> Web Developer
           </p>
+
 
         </div>
         <FaReact  size='50vw' color='black' style={{position: 'absolute', top: '0px', left: '0px', zIndex:'0'}}/>
+
+      </div>
+
+
+
+
+      <div className='about-section' id='About'>
+
+        <p className='section-header'>
+
+          ABOUT ME
+
+        </p>
+
+        <p className='about'>
+
+          Hello! My name is Andrew Torres. I am a self-taught <span className='focus'> web developer</span> that enjoys creating <span className='focus'> custom</span> and <span className='focus'> dependable </span> 
+          web applications with amazing <span className='focus'> User Interface</span>.
+          I have exstensive experience working with<span className='focus'> React</span>, <span className='focus'> Python</span>, and <span className='focus'>Vue</span>.
+          I also have a great deal of experience with <span className='focus'> databases</span> like <span className='focus'>MongoDB</span>, as well as integrating them into web applications.
+          I recently landed my first web developer job working for an E-commerce store called Shopdango, which uses a React framework called<span className='focus'> Next.js</span>.
+          However, the lay-offs throughout the tech industry forced me to search for new employment.
+          Nevertheless, I love learning new skills, tackling new challenges that come my way, and cannot wait to back in the tech field.
+          Please feel free to view my projects and contact me with any questions you may have.
+
+        </p>
 
       </div>
 
@@ -128,7 +150,7 @@ export default function App () {
                 </a>
               </p>
 
-              <img src={project.photo}/>
+              <img src={project.photo} alt='project'/>
 
               <div className='projectDescription'>
 
@@ -164,7 +186,7 @@ export default function App () {
 
         <div className='resume'>
 
-          <img src={resume}/>
+          <img src={resume} alt='resume'/>
 
         </div>
 
