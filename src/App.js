@@ -92,7 +92,8 @@ export default function App () {
           
           <p>
 
-          <span className='focus'>Creative</span> and <span className='focus'>Innovative</span> Software Developer
+            Software Engineer / Web Developer
+
           </p>
 
 
@@ -114,14 +115,14 @@ export default function App () {
 
         <p className='about'>
 
-          Hello! My name is Andrew Torres. I am a self-taught <span className='focus'> Software Developer</span> that enjoys creating <span className='focus'> custom</span> and <span className='focus'> dependable </span> 
-          web applications with amazing <span className='focus'> User Interface</span>.
-          I have exstensive experience working with<span className='focus'> React</span>, <span className='focus'> Python</span>, and <span className='focus'>Vue</span>.
-          I also have a great deal of experience with <span className='focus'> databases</span> like <span className='focus'>MongoDB</span>, as well as integrating them into web applications.
-          I recently landed my first web developer job working for an E-commerce store called Shopdango, which uses a React framework called<span className='focus'> Next.js</span>.
-          However, the lay-offs throughout the tech industry forced me to search for new employment.
-          Nevertheless, I love learning new skills, tackling new challenges that come my way, and cannot wait to back in the tech field.
-          Please feel free to view my projects and contact me with any questions you may have.
+          Hello! My name is Andrew Torres and I am a <span className='focus'>software engineer</span> who has a passion for creating <span className='focus'> innovative</span> and <span className='focus'> dependable </span> 
+          web applications with amazing <span className='focus'> user interfaces</span>.
+          I consider myself an expert in front-end laguages like <span className='focus'> Javascript</span>, <span className='focus'> HTML</span>, and <span className='focus'>CSS</span>.
+          While I have used several front-end frameworks and libraries, I have the most experience with <span className='focus'> React</span> and <span className='focus'> Next.JS</span>. 
+          In terms of back-end experience, I have used several databases and frameworks such as <span className='focus'> Express.JS</span> and <span className='focus'> MongoDB</span>.
+          Although I lack a formal education in Computer Science or a related field, I have an unrivaled passion for front-end development and alot to prove.
+          Furthermore, I love learning new skills/technologies, taking on new challenges, and becoming a better software developer each and every day.
+          Please take a look at my projects and shoot me an email with any questions.
 
         </p>
 
