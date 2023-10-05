@@ -92,7 +92,7 @@ export default function App () {
           
           <p>
 
-          <span className='focus'>Creative</span> and <span className='focus'>Innovative</span> Web Developer
+          <span className='focus'>Creative</span> and <span className='focus'>Innovative</span> Software Developer
           </p>
 
 
@@ -114,7 +114,7 @@ export default function App () {
 
         <p className='about'>
 
-          Hello! My name is Andrew Torres. I am a self-taught <span className='focus'> web developer</span> that enjoys creating <span className='focus'> custom</span> and <span className='focus'> dependable </span> 
+          Hello! My name is Andrew Torres. I am a self-taught <span className='focus'> Software Developer</span> that enjoys creating <span className='focus'> custom</span> and <span className='focus'> dependable </span> 
           web applications with amazing <span className='focus'> User Interface</span>.
           I have exstensive experience working with<span className='focus'> React</span>, <span className='focus'> Python</span>, and <span className='focus'>Vue</span>.
           I also have a great deal of experience with <span className='focus'> databases</span> like <span className='focus'>MongoDB</span>, as well as integrating them into web applications.
