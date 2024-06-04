@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import bonsai from './Photos/bonsai-screenshot.jpeg';
 import met from './Photos/met-museum.jpeg';
 import countries from './Photos/countriesAppPreview.PNG';
-import resume from './Photos/Resume.PNG'
+import resume from './Photos/ResumePicture.PNG'
 
 import {BsLinkedin, BsGithub} from 'react-icons/bs';
 import {FaReact} from 'react-icons/fa';
